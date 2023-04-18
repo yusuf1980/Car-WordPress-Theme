@@ -1,0 +1,309 @@
+/*
+Theme Name: CARROS.ID
+Theme URI: https://www.carros.id/
+Author: Achmad Yusuf
+Author URI: https://www.carros.id/
+Description: Carros is theme for www.carros.id
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, blog, cars, selling
+Text Domain: indocarmarket
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.pcd-price {
+	font-weight: 600;
+    font-size: 18px;
+    color: #0f75bd;
+    text-align: left;
+    margin-bottom: 2px;
+}
+.pcd-price b {
+	display: none;
+}
+.sold-price {
+	color: #e06969;
+    font-size: 14px;
+}
+
+.single_vehic .trail-items {
+    font-size: 12px;
+    background: #fff;
+}
+.single_vehic .trail-items li {
+	color: #0f75bd;
+}
+.single_vehic .trail-items li a {
+	color: #000;
+}
+@media (min-width: 75rem) {
+	.single_vehic .trail-items {
+	    padding: 20px 0px;
+	    margin-bottom: 0;
+	}
+}
+.product-detail .productRPBig span.ask_seller {
+	font-size: 20px;
+}
+.search-results-items .row .row {
+	padding: 0px 15px;
+}
+.search-results-items .row .row .col-6 {
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.embed-container {
+   position: relative;
+   padding-bottom: 56.25%;
+   height: 0;
+   overflow: hidden;
+   max-width: 100%;
+   height: auto;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed { 
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+@media (max-width: 540px) {
+	.page-section .carros-container .breadcrumbs {
+		display: none;
+	}
+}
+.sold_slide_image .sold_image {
+  top: 5%;
+}
+.sold_image {
+
+}
+.tombol_jual {
+  margin-top: 20px;
+}
+.tombol_jual .primary-btn {
+  font-size: 20px;
+}
+.contact_us_page_url {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: #65676b;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 20px;
+}
+@media (min-width: 48rem) {
+  .contact_us_page_url {
+      padding: 60px;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+}
+@media (min-width: 75rem) {
+  .contact_us_page_url {
+    padding: 40px 80px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.carros-container {
+  
+}
+.carros-container .title_desc {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 600;
+  color: #4a4a4a;
+}
+.carros-container .title_desc {
+  margin-top: 20px;
+}
+@media (min-width: 541px) {
+  .description_product {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2
+    column-gap: 10px;
+    column-rule: 0px solid black;      
+
+  }
+}
+@media (max-width: 540px) {
+  .carros-container .title_desc {
+    font-size: 25px;
+  }
+}
+.pdp-tray-carousel .slick-slide {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+@media (max-width: 540px){
+  .section-breadcrumb {
+    display: none;
+  }
+}
+.product-tray-wrapper .productwishlist {
+  border-top: 1px solid #0000002;
+  padding-top: 20px;
+  margin-top: 30px !important;
+}
+.productwishlist {
+  border-top: 1px solid #E3DBDB;
+}
+.article-listing-area .articls-tab-contents .article-box img {
+    height: auto;
+}
+.widget_search .screen-reader-text {
+  display: none;
+}
+
+.comments-area {
+  overflow: hidden;
+}
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea {
+  color: #666;
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  outline: 0px none;
+}
+
+
+.comments-area .comment-form label {
+  color: #808086;
+}
+.comments-area .comment-form-comment label, .comments-area .comment-form-comment textarea {
+  width: 100%;
+}
+.comments-area .comment-form-comment label, .comments-area .comment-form-comment textarea {
+  width: 100%;
+}
+.comment-form-author {
+  padding-right: 10px;
+}
+.comment-form-author, .comment-form-email {
+  width: 50%;
+  float: left;
+}
+.comment-form-email {
+  padding-left: 10px;
+}
+.comment-form p.comment-form-url label {
+  
+}
+.comments-area .comment-respond .comment-form-author label, .comments-area .comment-respond .comment-form-email label, .comments-area .comment-respond .comment-form-url label {
+  width: 100px;
+}
+.comment-form-url {
+  width: 100%;
+}
+.comment-form input[type="text"], .comment-form input[type="email"], .comment-form input[type="url"], .comment-form textarea {
+  border-color: #E4E4E4;
+  width: 100%;
+}
+.comments-area .comment-respond .form-submit input, .comments-area .comment-respond .form-submit input:hover {
+  transition: all 0.2s ease-out 0s;
+}
+.comments-area .comment-respond .form-submit input {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 20px;
+  min-width: 180px;
+}
+.widget h2 {
+  color: #fff;
+}
+.input-home {
+  position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    font-size: 16px !important;
+    cursor: pointer;
+}
+.input-home i {
+  display: flex;
+    padding-top: 7px;
+    margin-left: 7px;
+    height: 58px;
+  padding-top: 20px;
+}
+.input-home .custom-select {
+      flex: 1 1 auto;
+    display: inline-block;
+    width: 1% !important;
+    font-size: 16px !important;
+    height: 58px;
+    cursor: pointer;
+}
+.input-home .custom-select:focus{
+  border-color: #ced4da;
+  box-shadow: none;
+}
+footer.footer .widget {
+  box-shadow: none;
+}
+.text-gray-base a {
+    color: #fff;
+}
+.section {
+    position: relative;
+    padding: 12px 0 !important;
+    margin: 12px 0 !important;
+}
+.category-blog-big, .title-big-blog, .desc-blog p, .desc-big-news p {
+    color: #fff;
+}
+@media (min-width: 1200px) {
+  .desc-blog {
+    padding-top: 0;
+  }
+}
+a.more-link {
+  color: #eecd58;
+}
+a.more-link:hover {
+  color: #000;
+}
+@media (min-width: 992px) {
+  .social__link__footer {
+    float: right;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .responsive-area {
+      margin-top: 20px;
+      text-align: center;
+  }
+  footer .footer-container .footer-copyright {
+    flex-direction: column-reverse;
+  }
+  .social__link__footer {
+    text-align: center;
+    padding-top: 20px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .norm_row {
+    margin-left: -75px !important;
+  }
+}
+@media (max-width: 767px) {
+  .title-small-blog a {
+    font-size: 12px;
+  }
+  .desc-list-blog > a > h6 {
+    font-size: 13px;
+  }
+}
+
+
+
+

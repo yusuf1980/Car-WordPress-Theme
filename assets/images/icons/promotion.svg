@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="81" height="50" viewBox="0 0 81 50">
+    <defs>
+        <text id="b" fill="#FFF" font-family="SourceSansPro-BlackItalic, Source Sans Pro" font-size="12" font-style="italic" font-weight="700">
+            <tspan x="13.324" y="25">Promosi!</tspan>
+        </text>
+        <filter id="a" width="212.5%" height="292.9%" x="-56.2%" y="-75%" filterUnits="objectBoundingBox">
+            <feOffset dy="6" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.885391855 0 0 0 0 0.900447838 0 0 0 0 0.960671769 0 0 0 1 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(1)">
+        <circle cx="38" cy="21" r="21" fill="#4ACDE1" fill-rule="nonzero"/>
+        <path fill="#FFF" d="M16.313 34.215l62.434-7.127a.987.987 0 0 1 1.095.895 1.013 1.013 0 0 1-.92 1.098l-62.58 5.475a.169.169 0 0 1-.182-.154.173.173 0 0 1 .153-.187zM63.618 9.356L1.183 16.482a.987.987 0 0 1-1.095-.895 1.013 1.013 0 0 1 .921-1.097l62.58-5.475a.169.169 0 0 1 .182.153.173.173 0 0 1-.153.188z"/>
+        <g fill="#FFF" transform="rotate(-5 37.324 22.911)">
+            <use filter="url(#a)" xlink:href="#b"/>
+            <use xlink:href="#b"/>
+        </g>
+    </g>
+</svg>

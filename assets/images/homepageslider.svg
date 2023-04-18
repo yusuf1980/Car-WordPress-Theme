@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1366" height="600" viewBox="0 0 1366 600">
+    <defs>
+        <linearGradient id="a" x1="116.68%" x2="-16.68%" y1="51.496%" y2="51.496%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#BEBEBE" d="M0 0h1366v600H0z"/>
+        <g transform="translate(587 240)">
+            <g transform="translate(52)">
+                <ellipse cx="44.4" cy="44.292" fill="#FFF" fill-rule="nonzero" rx="44.4" ry="44.292"/>
+                <path fill="#F5F6FA" d="M28.5 34.593c6.889-3.539 10.087 23.547 12.383 24.472 3.088 1.245 2.664-10.77 15.166-10.77 5.78 0 10.083 2.878 13.08 8.596 1.275 2.43 3.59 3.695 6.944 3.794-9.135 11.466-19.66 17.199-31.576 17.199-14.085 0-24.549-4.97-31.392-14.912 2.08 0 3.503-.812 4.269-2.435 6.284-13.312 6.859-23.752 11.126-25.944z"/>
+                <ellipse cx="58.8" cy="27.533" fill="#F5F6FA" rx="7.2" ry="7.182"/>
+            </g>
+            <rect width="192" height="11.971" y="108" fill="url(#a)" rx="5.985"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <circle id="a" cx="24" cy="24" r="24"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="#FFF" fill-rule="nonzero" xlink:href="#a"/>
+        <g mask="url(#b)">
+            <circle cx="24" cy="24" r="24" fill="#FFF" fill-rule="nonzero"/>
+            <g transform="translate(6.665 14.634)">
+                <path fill="#FFF" stroke="#1C3053" stroke-width="2.276" d="M3.106.31h28.266a2.833 2.833 0 0 1 2.833 2.832v15.07a2.833 2.833 0 0 1-2.833 2.832H3.106a2.833 2.833 0 0 1-2.833-2.832V3.142A2.833 2.833 0 0 1 3.106.309z"/>
+                <path fill="#FFF" fill-rule="nonzero" stroke="#1C3053" stroke-width="1.567" d="M1.713 14.65a.656.656 0 1 0 0 1.313h31.052a.656.656 0 1 0 0-1.312H1.713z"/>
+                <rect width="6.313" height="6.38" x="23.157" y="4.297" fill="#1C3053" fill-rule="nonzero" rx="3.135"/>
+            </g>
+            <g fill-rule="nonzero" transform="translate(12.08 17.57)">
+                <ellipse cx="6.313" cy="4.262" fill="#1C3053" stroke="#1C3053" stroke-width=".836" rx="6.313" ry="2.916"/>
+                <ellipse cx="6.313" cy="2.467" fill="#FFF" rx="6.313" ry="2.467"/>
+                <path stroke="#1C3053" stroke-linecap="round" stroke-linejoin="round" stroke-width=".836" d="M6.313 5.383c3.486 0 6.313-1.105 6.313-2.467 0-.65-.642-1.24-1.691-1.68-.809-.34-1.859-.59-3.043-.71A15.805 15.805 0 0 0 6.312.45M.348 2.07C1.528.99 2.667.452 3.762.452"/>
+            </g>
+            <g fill-rule="nonzero" transform="translate(12.08 12.785)">
+                <ellipse cx="6.313" cy="4.262" fill="#1C3053" stroke="#1C3053" stroke-width=".836" rx="6.313" ry="2.916"/>
+                <ellipse cx="6.313" cy="2.467" fill="#FFF" rx="6.313" ry="2.467"/>
+                <path stroke="#1C3053" stroke-linecap="round" stroke-linejoin="round" stroke-width=".836" d="M6.313 5.383c3.486 0 6.313-1.105 6.313-2.467 0-.65-.642-1.24-1.691-1.68-.809-.34-1.859-.59-3.043-.71A15.805 15.805 0 0 0 6.312.45M.348 2.07C1.528.99 2.667.452 3.762.452"/>
+            </g>
+            <g fill-rule="nonzero" transform="translate(12.08 8)">
+                <ellipse cx="6.313" cy="4.262" fill="#1C3053" stroke="#1C3053" stroke-width=".836" rx="6.313" ry="2.916"/>
+                <ellipse cx="6.313" cy="2.467" fill="#FFF" rx="6.313" ry="2.467"/>
+                <path stroke="#1C3053" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6.313 5.383c3.486 0 6.313-1.105 6.313-2.467 0-.65-.642-1.24-1.691-1.68-.809-.34-1.859-.59-3.043-.71A15.805 15.805 0 0 0 6.312.45M.348 2.07C1.528.99 2.667.452 3.762.452"/>
+            </g>
+        </g>
+    </g>
+</svg>
